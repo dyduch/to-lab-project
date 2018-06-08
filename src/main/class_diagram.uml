@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="0.0" y="139.0">main.RealEmployee</node>
+    <node x="528.0" y="204.0">main.D3</node>
+    <node x="768.0" y="204.0">main.D2</node>
+    <node x="287.99999999999994" y="204.0">main.D1</node>
+    <node x="491.33333333333326" y="0.0">main.Employee</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="main.D3" target="main.Employee">
+      <point x="1.4210854715202004E-14" y="-82.0" />
+      <point x="638.0" y="119.0" />
+      <point x="612.3333333333333" y="119.0" />
+      <point x="11.0" y="29.5" />
+    </edge>
+    <edge source="main.D2" target="main.Employee">
+      <point x="-90.66666666666669" y="-82.0" />
+      <point x="813.3333333333333" y="99.0" />
+      <point x="656.3333333333333" y="99.0" />
+      <point x="55.0" y="29.5" />
+    </edge>
+    <edge source="main.D1" target="main.Employee">
+      <point x="0.0" y="-82.0" />
+      <point x="397.99999999999994" y="99.0" />
+      <point x="546.3333333333333" y="99.0" />
+      <point x="-55.0" y="29.5" />
+    </edge>
+    <edge source="main.RealEmployee" target="main.Employee">
+      <point x="0.0" y="-147.0" />
+      <point x="134.0" y="79.0" />
+      <point x="502.33333333333326" y="79.0" />
+      <point x="-99.0" y="29.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="354.0" y="420.0" />
+  <SelectedNodes>
+    <node>main.RealEmployee</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
