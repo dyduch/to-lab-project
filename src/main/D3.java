@@ -2,23 +2,23 @@ package main;
 
 public class D3 implements Employee {
     public Employee e;
-    private int addition;
+    private int bonus;
 
-    public D3(Employee e, int addition) {
+    public D3(Employee e, int bonus) {
         this.e = e;
-        this.addition = addition;
+        this.bonus = bonus;
     }
 
     @Override
     public String showEmployee() {
-        return e.showEmployee() + "\nAddition: " + this.addition;
+        return e.showEmployee() + "\nBonus: " + this.bonus;
     }
 
-    public int getAddition() {
-        return addition;
+    public int getBonus() {
+        return bonus;
     }
 
-    public void setAddition(int addition) {
-        this.addition = addition;
+    public void setBonus(int bonus) {
+        this.bonus = bonus;
     }
 }
